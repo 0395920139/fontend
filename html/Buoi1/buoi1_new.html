@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+        1. h1 - h6 - heading 
+        2. p -paragrap
+        3. img -image
+        4. a - anchor
+        5. ul, li - unordered list , list item
+        7. table
+        8. input
+        9. button
+        10. div
+     -->
+     <h1>Buổi 1 : HTML cơ bản </h1>
+     <h3>Phần 1 : Khái niệm HTML </h3>
+     <h4>HTML là gì ?</h4>
+     <p>là chữ viết tắt của Hypertext Markup languge, Nó giúp người tạo và cấu trúc các thành phần trong trang web
+        hoặc ứng dụng,phân chia các đoạn văn,heading,links,blockquoetes,vv</p>
+     <img src="https://kinhnghiemlaptrinh.com/wp-content/uploads/2019/09/html-la-gi-kinh-nghiem-lap-trinh-300x169.jpg" alt="Logo Migor">
+     <!-- <img src="./logo4.jpg" alt=""> -->
+     <br>
+     <a href="https://www.facebook.com/"> Vào FB </a>
+     <br>
+     <a href="#"> Trở Về đầu trang </a>
+     <br>
+     <ul>
+         <li>Home</li>
+         <li>Blog</li>
+         <li>contract</li>
+         <li>setting</li>
+         <li>Help</li>
+     </ul>
+     <ol>
+        <li>Home</li>
+        <li>Blog</li>
+        <li>contract</li>
+        <li>setting</li>
+        <li>Help</li>
+    </ol>
+
+    <table width="100%" border="1px" cellspascing ="0" cellpadding ="10px">
+        <!--  thẻ đầu  -->
+        <thead>
+            <!--  thẻ dòng dữ liệu  -->
+            <tr>
+                <!-- thẻ cột dữ liệu  -->
+                <th>Mã SV</th>
+                <th>Tên Sinh Viên</th>
+                <th>Năm Sinh</th>
+                <th>Tiền Học </th>
+                
+            </tr>
+        </thead>
+        <!--  thẻ thân -->
+        <tbody>
+            <tr>
+                <!-- Chứa dữ liệu -->
+                <td>CT01</td>
+                <td>Nguyễn Văn Minh</td>
+                <td rowspan="2">2000</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>CT02</td>
+                <td>Nguyễn Hải Long</td>
+                <!-- <td>2000</td> -->
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>CT03</td>
+                <td>Bùi Văn Hậu</td>
+                <td>1997</td>
+                <td>500</td>
+            </tr>
+        </tbody>
+        <!--  thẻ đuôi  -->
+        <tfoot>
+            <tr>
+                <th colspan="3"> Tổng tiền</th>
+                <td>2000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <br>
+    <video src="./video.mkv"  controls poster="./logo4.jpg" width="300px" height="200px" ></video>
+    <audio src="./DeVuong-DinhDungACV-7121634.mp3"></audio>
+    <br>
+    <br>
+    <br>
+    <form action="">
+        <label for="use">User Name</label>
+        <input type="text" id="use" placeholder="Văn Minh">
+        <br>
+        <label for="password">password</label>
+        <input type="password" id="password">
+        <br>
+        <input type="submit" value="Đăng Nhập">
+        <br>
+        <button>
+             <a href="https://www.w3schools.com/tags/att_label_for.asp">
+                 click me !
+            </a>
+        </button>
+        <br>
+        <label for="date">Date :</label>
+        <input type="date" id=date>
+        <br>
+        <label for="note">note :</label>
+        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+        <br>
+        <select name="gioitinh" id="gioitinh">
+            <option value="3" >-- Be De --</option>
+            <option value="" >-- giới tính --</option>
+            <option value="2">-- nam --</option>
+            <option value="1" selected="selected">-- nữ --</option>
+        </select>
+
+        <label for="name">nam</label>
+        <input type="radio" name="gender" >
+        <label for="name">nu</label>
+        <input type="radio" name="gender" >
+
+        
+    </form>
+    <br>
+    <br>
+
+</body>
+</html>

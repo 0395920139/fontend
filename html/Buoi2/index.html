@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Migor </title>
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Internal  -->
+
+    <!-- <style>
+        /* h1{
+            color : red;
+        }
+         color là thuộc tính , red là giá trị này phải nhớ để dễ làm */
+        .text{
+            color: blue;
+        }
+    </style> -->
+
+    <style>
+        p{
+            color: #00fffd;
+            font-size: 30px;
+        }
+    </style>
+
+    <!-- Internal  -->
+</head>
+<body>
+    <h1> CSS in HTML ?</h1>
+    <ul>
+        <li >Internal</li>
+        <!-- Internal sử dụng 1 cặp thẻ style trong chính tài liệu html  -->
+        <li>Exteranl</li>
+        <!-- Exteranl sử dụng 1 file bên ngoài link vào tài liệu html  -->
+        <li style="color: red;font-size: 20px;">Inline</li>
+        <!-- Inline viết luôn vào trong dòng -->
+    </ul>
+
+
+    <div class="container">
+        <h2 id="active">css selectors ?</h2>
+        <h2 class="second-heading hello">css selectors ?</h2>
+        <h2 class="second-heading">css selectors ?</h2>
+        <h3 class="ID36"> ID & CLASS</h3>
+        <!-- https://www.w3schools.com/cssref/css_selectors.asp tham khảo -->
+    </div>
+
+
+    <!-- g Mức độ ưu tiên  -->
+    <div>
+        <h2 class="text">Priority</h2>
+        <ol>
+            <li>Internal,Exteranl</li>
+            <!--  cái nào gọi sau thì sẽ dược ưu tiên hơn -->
+            <li > n! importat vô địch</li>
+            <li>Inline - 1000</li>
+            <li>#id- 100</li>
+            <li>.class - 10</li>
+            <li>tag - 1</li>
+            <!--  thằng nào lớn hơn thì ưu tiên lớn hơn -->
+
+            <li>equal Specificity?</li>
+            <!--  giống nhau về selector thì thằng nào mới thằng đấy đc -->
+            <li>universal selector and  inherited</li>
+            <!--  các selector * cái này 0đ -->
+        </ol>
+
+    </div>
+    <p style="color: black;"> Hello các bạn</p>
+</body>
+</html>

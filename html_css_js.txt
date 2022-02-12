@@ -1,0 +1,84 @@
+1. bắt đầu
+2. làm quen với HTML
+3. Làm quen với css
+4. Đệm viền và khoảng lề
+5. Thuộc tính tạo nền
+6. thuộc tính vị trí
+7. Xây dựng web the band
+8. Responsive web The Band
+9. Dựng bố cục web với Flex box
+10. Quy ước đặt tên class BEM
+11. Xây dựng web shoppe
+12. bài tập lớn
+
+
+@ - js
+
+1. Giới thiệu
+2. biến,comments,built-in
+3. toán tử, kiểu dữ liệu
+4, làm việc với chuỗi
+5, làm việc với mảng
+6, Làm việc với Hàm
+7, Làm việc với object
+8, Lệnh rẽ nhánh toán tử 3 ngôi
+9. Vòng lặp
+10. làm việc với mảng 2
+11. callback
+13. HTML DOM
+14. JSON,FETch,POSTMAN
+15, ECMAscript 6+
+16, Bài Làm
+17 Form Validation 1
+18 xíu bài tập
+
+
+
+
+@ reactjs
+1. giới thiệu
+2. ES6 +
+3. React,React-Dom
+4. jsx,Components,props
+5. creact reate app
+6. hooks
+7. css,scss, và css module 
+8. react router V6
+9. bài tập CV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

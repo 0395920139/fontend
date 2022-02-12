@@ -1,0 +1,59 @@
+Ta có 7 mục cần đạt được trong này là :
+
+@ Mục tiêu đạt được
+
+1. Xây dựng được giao diện website
+2. Phân tích giao diện website
+3. Đặt tên class theo chuẩn BEM
+4. Xây dựng layout với Flexbox 
+5. Làm hiệu ứng với animation
+6. Xây dựng giao diện responsive
+7. Một số kỹ thuật nâng cao
+
+
+@ Khái niệm cơ bản 
+
+- HTML là gì ?
+	=> là chữ viết tắt của Hypertext Markup languge, Nó giúp người tạo và cấu trúc các thành phần trong trang web
+	hoặc ứng dụng,phân chia các đoạn văn,heading,links,blockquoetes,vv
+	
+- CSS là gì ?
+	=> Là ngôn ngữ tạp phong cách(style) cho trang web - cascading style sheet language. Nó dùng để tạo phong cách
+	và định kiểu cho những yếu tố đc viết dưới dạng ngôn ngữ đánh dấu như html
+
+
+@  Làm quen với Dev tools
+
+	+ click mouse right + chose inspect
+	+ click vào dấu ...(customize and control DevTools)
+
+	=> Elements(thuộc tính) :  chứa tất cả phẩn tử của website(chứa ngôn ngữ lập trinh, HTML)
+	=> Styles : hiện thuộc tính css 
+	=> console : sử dụng thao tác js
+	=> sources : sử dụng để quản lý website xem sử dụng những tài nguyên nào
+	=> Netword : thể hiện được tất cả nguồn ra vào (như là tải các nguồn tài nguyên vào website hay là gửi tài
+	nguyên ra bên ngoài)
+	=>toggle device toolbar - chuyển đổi mô phỏng device mô phỏng điện thoại
+
+@ Cài đặt công cụ
+	+ Visual studio code + live server extension
+	+ chrome page ruler extension
+
+==================== Làm quen với HTML ========================
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

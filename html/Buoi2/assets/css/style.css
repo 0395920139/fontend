@@ -1,0 +1,54 @@
+*{
+    color: rebeccapurple;
+}
+/*  lớp giả  */
+:root{
+    /*  biến toàn cục */
+    --text--color :rgb(243, 239, 0); 
+    --table-color : red;
+}
+/* Khi gọi như này là css selectors  */
+h1{
+    color : red;
+}
+h2{
+    /* biến cục bộ */
+    /* --my-color : red; */
+    color : var(--table-color);
+}
+/* Khi selectors id thì mình dùng dấu #
+    + trong 1 file html k được trùng id */
+#active {
+    font-size: 30px;
+    color: aquamarine;
+
+}
+/* Khi selectors class thì mình dùng dấu .
+    + chúng ta có thể dùng class chung cho các thẻ  */
+.second-heading{
+    font-size: 15px;
+    color: var(--text--color);
+}
+/*  color là thuộc tính , red là giá trị này phải nhớ để dễ làm */
+
+.second-heading.hello{
+    font-size: 45px;
+    color: var(--text--color);
+}
+
+.container .ID36{
+    color: blue;
+}
+
+.text{
+    color: red;
+}
+
+h1{
+    color: #00fffd;
+    font-size: 30px;
+}
+
+p{
+    color: red !important ;
+}

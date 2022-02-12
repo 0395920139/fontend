@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Buổi 1 </title>
+</head>
+<body>
+
+    <!-- 
+        1. h1 - h6 - heading 
+        2. p -paragrap
+        3. img -image
+        4. a - anchor
+        5. ul, li - unordered list , list item
+        7. table
+        8. input
+        9. button
+        10. div
+
+
+     -->
+    <h1>Hơn 16.000 ca Covid-19 tại 62 tỉnh thành, 11.178 F0 cộng đồng</h1>
+    <p>(Dân trí) - Ngày 17/1, Bộ Y tế cho biết cả nước ghi nhận 16.225 ca mắc mới Covid-19. Hà Nội vẫn là địa phương dẫn đầu 
+        cả nước số mắc mới trong ngày, với gần 3.000 ca bệnh. Trong khi đó, TPHCM ghi nhận 204 ca.</p>
+        <img src="./logo4.jpg" alt="ảnh đẹp" width="300px" height="200px">
+    <!-- src chứa đường dẫn của ảnh => alt chứa title của anh nếu đường dẫn ảnh lỗi -->
+    <br>
+    <a href="https://www.facebook.com/">tới trang FB</a>
+    
+    <ul>
+        <li>heading </li>
+        <li>paragrap</li>
+        <li>image</li>
+        <li>anchor</li>
+    </ul>
+    <ol>
+        <li>Toán</li>
+        <li>Lý</li>
+        <li>Hóa</li>
+    </ol>
+    <!-- hiện danh sách dạng list sử dung li*4 
+        ul là dạng . còn ol là dạng số-->
+
+        <table width="100%" border="3" cellspascing ="0" cellpadding ="10px"> 
+            <!--  width là chiều rộng của bảng ,cellspascing để chỉ định khoảng cách giữa các ô,  -->
+            <!--  dòng chính -->
+            <thead>
+                <!--  dòng dữ liệu  -->
+                <tr>
+                    <th> mã sinh viên</th>
+                    <th> họ tên</th>
+                    <th> quê quán </th>
+                    <th> giới tính</th>
+                    <th> số điện thoại</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>ct030237</th>
+                    <th>Nguyễn Văn Minh</th>
+                    <th rowspan="2">Hòa Bình</th>
+                    <!-- rowspan gộp các hàng lại với nhau -->
+                    <th>nam</th>
+                    <th>0328716036</th>
+                </tr>
+                <tr>
+                    <th>ct030237</th>
+                    <th>Nguyễn Văn Minh</th>
+                    <!-- <th></th> -->
+                    <th>nam</th>
+                    <th>0328716036</th>
+                </tr>
+                <tr>
+                    <th>ct030237</th>
+                    <th>Nguyễn Văn Minh</th>
+                    <th>Hòa Bình</th>
+                    <th>nam</th>
+                    <th>0328716036</th>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4"> tổng tiền</th>
+                    <!--  gộp các cột lại với nhau -->
+                    <th>5000</th>
+                </tr>
+            </tfoot>
+    
+        </table>
+
+        <video src="./video.mkv" autoloop loop controls autobuffer poster="./logo4.jpg" width="300px" height="200px"></video>
+        <audio src="./DeVuong-DinhDungACV-7121634.mp3"></audio>
+
+
+        <form action="">
+            <!-- action thuộc tính để thiết lập URL, là địa chỉ mà dữ liệu của form gửi đến (submit đến, post đến). 
+                Thiếu tham số này thì action bằng URL đang truy cập method thuộc tính để thiết lập HTTP Method,
+                 xem thêm HTTP Request Message thường có giá trị bằng get hoặc post . -->
+
+            <!-- Thẻ HTML <label> hay thẻ label trong HTML được sử dụng để định nghĩa nhãn cho phần tử <input>.
+                 Chẳng hạn như textbox, email, password, textarea... -->
+            <label for="user">User Name</label>
+            <input type="text" id="user">
+            <!-- Thẻ chỉ định một trường đầu vào nơi người dùng có thể nhập dữ liệu. -->
+            <br>
+            <label for="password">password :</label>
+            <input type="password" id=password >
+            <!-- placeholder là cung cấp thêm thông tin cho người dùng,
+                 giúp họ biết cần nhập dữ liệu gì hoặc bất cứ thông báo nào mà bạn muốn. -->
+            <br>
+            <label for="date">Date :</label>
+            <input type="date" id=date>
+            <br>
+            <label for="note">note :</label>
+            <textarea name="note" id="note" cols="30" rows="10"></textarea>
+            <br>
+            <select>
+                <option value="">-- giới tính --</option>
+                <option value="1"selected="selected">-- nam --</option>
+                <option value="2">-- nữ --</option>
+                <!-- Thuộc tính value chỉ định giá trị sẽ được gửi đến máy chủ khi biểu mẫu được gửi.
+                    selected - mặc định nó ở đầu tiên -->
+            </select>
+
+            <br>
+
+            <label for="name">nam</label>
+            <input type="radio" name="gender" >
+            <label for="name">nu</label>
+            <input type="radio" name="gender" >
+
+            <br>
+
+            <label for="name">nu 16</label>
+            <input type="checkbox" name="gender">
+            <label for="name">nu 17</label>
+            <input type="checkbox" name="gender">
+            <label for="name">nu 18</label>
+            <input type="checkbox" name="gender">
+
+            <br>
+            <button type="button">click me</button>
+            <br>
+
+
+
+
+            <input type="email" name="" id="">
+            <button type="submit">submit form </button>
+            <br>
+            <br><br><br><br><br>
+        </form>
+
+        <div>
+            <!--  dùng để chứa 1 nhóm các câu lệnh -->
+        </div>
+
+
+    
+</body>
+</html>
